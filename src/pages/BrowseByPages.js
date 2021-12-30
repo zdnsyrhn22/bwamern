@@ -9,7 +9,7 @@ import ItemFilters from "parts/ItemFilters";
 
 import { fetchPage } from "store/actions/page";
 
-class BrowseBy extends Component {
+class BrowseByPages extends Component {
   state = {
     data: {
       searchParams: "",
@@ -68,4 +68,4 @@ const mapStateToProps = (state) => ({
   page: state.page,
 });
 
-export default connect(mapStateToProps, { fetchPage })(BrowseBy);
+export default connect(mapStateToProps, { fetchPage })(BrowseByPages);
