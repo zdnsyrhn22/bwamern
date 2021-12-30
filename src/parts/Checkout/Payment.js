@@ -9,7 +9,6 @@ export default function Payment(props) {
   const tax = 10;
   const subTotal = ItemDetails.price * checkout.duration;
   const grandTotal = (subTotal * tax) / 100 + subTotal;
-  console.log(data, checkout, ItemDetails)
   return (
     <Fade>
       <div className="container" style={{ marginBottom: 30 }}>
@@ -23,7 +22,6 @@ export default function Payment(props) {
               <div className="mt-4">
                 {
                   ItemDetails.bank.map((bank) => {
-                    console.log(bank)
                     return (
                   <div className="row">
                     <div className="col-3 text-right">

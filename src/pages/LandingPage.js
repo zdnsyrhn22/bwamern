@@ -17,7 +17,7 @@ class LandingPage extends Component {
   }
 
   componentDidMount() {
-    window.title = "Staycation | Home";
+    window.document.title = "Staycation | Home";
     window.scrollTo(0, 0);
 
     if (!this.props.page.landingPage)
@@ -25,8 +25,8 @@ class LandingPage extends Component {
   }
 
   render() {
-    const { page } = this.props
-
+    const { page } = this.props;
+    
     if (!page.hasOwnProperty("landingPage")) return null;
 
     return (

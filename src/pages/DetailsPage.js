@@ -15,7 +15,7 @@ import { fetchPage } from "store/actions/page";
 
 class DetailsPage extends Component {
   componentDidMount() {
-    window.title = "Details Page";
+    window.document.title = "Staycation | Details Page";
     window.scrollTo(0, 0);
 
     if(!this.props.page[this.props.match.params.id])
