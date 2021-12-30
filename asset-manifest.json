@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/bwamern/static/css/main.391f08d5.chunk.css",
+    "main.js": "/bwamern/static/js/main.9f3cd1e5.chunk.js",
+    "main.js.map": "/bwamern/static/js/main.9f3cd1e5.chunk.js.map",
+    "runtime-main.js": "/bwamern/static/js/runtime-main.99e5dbf5.js",
+    "runtime-main.js.map": "/bwamern/static/js/runtime-main.99e5dbf5.js.map",
+    "static/css/2.e0d7b6f8.chunk.css": "/bwamern/static/css/2.e0d7b6f8.chunk.css",
+    "static/js/2.65d3c93c.chunk.js": "/bwamern/static/js/2.65d3c93c.chunk.js",
+    "static/js/2.65d3c93c.chunk.js.map": "/bwamern/static/js/2.65d3c93c.chunk.js.map",
+    "static/js/3.ec7a0704.chunk.js": "/bwamern/static/js/3.ec7a0704.chunk.js",
+    "static/js/3.ec7a0704.chunk.js.map": "/bwamern/static/js/3.ec7a0704.chunk.js.map",
+    "index.html": "/bwamern/index.html",
+    "static/css/2.e0d7b6f8.chunk.css.map": "/bwamern/static/css/2.e0d7b6f8.chunk.css.map",
+    "static/css/main.391f08d5.chunk.css.map": "/bwamern/static/css/main.391f08d5.chunk.css.map",
+    "static/js/2.65d3c93c.chunk.js.LICENSE.txt": "/bwamern/static/js/2.65d3c93c.chunk.js.LICENSE.txt",
+    "static/media/_testimonial_landingPage.ded67087.png": "/bwamern/static/media/_testimonial_landingPage.ded67087.png",
+    "static/media/completed.8f509c8b.png": "/bwamern/static/media/completed.8f509c8b.png",
+    "static/media/index.scss": "/bwamern/static/media/star.476e317b.svg",
+    "static/media/icon-cities.a308ecdf.svg": "/bwamern/static/media/icon-cities.a308ecdf.svg",
+    "static/media/icon-search.188a4fb6.svg": "/bwamern/static/media/icon-search.188a4fb6.svg",
+    "static/media/icon-traveler.6082afd8.svg": "/bwamern/static/media/icon-traveler.6082afd8.svg",
+    "static/media/icon-treasure.382ce1be.svg": "/bwamern/static/media/icon-treasure.382ce1be.svg",
+    "static/media/icon_calendar.8f52a544.svg": "/bwamern/static/media/icon_calendar.8f52a544.svg",
+    "static/media/img-hero-frame.9e384889.png": "/bwamern/static/media/img-hero-frame.9e384889.png",
+    "static/media/img-hero.ce251b70.png": "/bwamern/static/media/img-hero.ce251b70.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99e5dbf5.js",
+    "static/css/2.e0d7b6f8.chunk.css",
+    "static/js/2.65d3c93c.chunk.js",
+    "static/css/main.391f08d5.chunk.css",
+    "static/js/main.9f3cd1e5.chunk.js"
+  ]
+}
