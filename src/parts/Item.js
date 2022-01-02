@@ -9,7 +9,7 @@ export default function Item(props) {
 
   const [pageNumber, setPageNumber] = useState(0);
 
-  const usersPerPage = 24;
+  const usersPerPage = 16;
   const pageVisited = pageNumber * usersPerPage;
 
   const pageCount = Math.ceil(item.length / usersPerPage);

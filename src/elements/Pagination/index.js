@@ -11,8 +11,11 @@ export default function Pagination(props) {
       <ReactPaginate
         previousLabel={`prev`}
         nextLabel={`next`}
+        breakLabel="..."
         pageCount={pageCount}
         onPageChange={changePage}
+        pageRangeDisplayed={2}
+        renderOnZeroPageCount={null}
         containerClassName={"paginationBttns"}
         previousLinkClassName={"previousbttn"}
         nextLinkClassName={"nextbttn"}
