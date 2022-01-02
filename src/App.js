@@ -15,7 +15,8 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/properties/:id" component={DetailsPage} />
         <Route path="/checkout" component={Checkout} />
-        <Route exact path="/Browse-by" component={BrowseByPages} />
+        <Route exact path="/browse-by" component={BrowseByPages} />
+        <Route exact path="/browse-by/search" component={BrowseByPages} />
       </Router>
 
       <ToastContainer

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 
 import Button from "elements/Button";
@@ -6,6 +6,17 @@ import Pagination from "elements/Pagination";
 
 export default function Item(props) {
   const { item, data } = props;
+
+  const [pageNumber, setPageNumber] = useState(0);
+
+  const usersPerPage = 24;
+  const pageVisited = pageNumber * usersPerPage;
+
+  const pageCount = Math.ceil(item.length / usersPerPage);
+
+  const changePage = ({ selected }) => {
+    setPageNumber(selected);
+  };
 
   if (item.length === 0) return null;
 
@@ -39,6 +50,7 @@ export default function Item(props) {
                   return item;
                 }
               })
+              .slice(pageVisited, pageVisited + usersPerPage)
               .map((item, index) => {
                 return (
                   <div className="item column-3 row-1" key={`item-${index}`}>
@@ -84,7 +96,7 @@ export default function Item(props) {
         <div className="row my-4">
           <div className="col">
             <div className="float-right">
-              <Pagination />
+              <Pagination pageCount={pageCount} changePage={changePage} />
             </div>
           </div>
         </div>
